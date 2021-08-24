@@ -1,0 +1,1479 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 3893 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Natalie Alexander/Documents/Unity/Azure
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65278
+Successfully changed project path to: C:/Users/Natalie Alexander/Documents/Unity/Azure
+C:/Users/Natalie Alexander/Documents/Unity/Azure
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 133.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Natalie Alexander/Documents/Unity/Azure/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     1946 MB
+    Driver:   21.20.16.4821
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009269 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 138.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12419ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1036ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 85.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2117ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1757ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.3 MB.
+System memory in use after: 126.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3207.
+Total: 8.583900 ms (FindLiveObjects: 0.826900 ms CreateObjectMapping: 0.381500 ms MarkObjects: 7.178800 ms  DeleteObjects: 0.193600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game/Level1.unity
+  artifactKey: Guid(214177b850c855444849237881249ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level1.unity using Guid(214177b850c855444849237881249ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a0208342c4e5d84ef6cbdabb69a56c') in 0.051344 seconds 
+  Import took 0.066058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001523 seconds.
+  path: Assets/ExampleAssets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929a991dfe856b8e7f7b83272de47bd8') in 0.072148 seconds 
+  Import took 0.084298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.195105 seconds.
+  path: Assets/Game/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93acb47a41d734d0e1a9166c2e42237b') in 0.046524 seconds 
+  Import took 0.064235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 623.607626 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture0.png
+  artifactKey: Guid(ade62ed7683dc674a864843fc71f38ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture0.png using Guid(ade62ed7683dc674a864843fc71f38ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c057258a10c982b49c0c17768b5c8fe4') in 0.913880 seconds 
+  Import took 1.366883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020661 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture0.png
+  artifactKey: Guid(ade62ed7683dc674a864843fc71f38ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture0.png using Guid(ade62ed7683dc674a864843fc71f38ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c057258a10c982b49c0c17768b5c8fe4') in 0.018069 seconds 
+  Import took 0.031291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 413.039087 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 1.mat
+  artifactKey: Guid(ac433f04d484bb04ca305bdc6871a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 1.mat using Guid(ac433f04d484bb04ca305bdc6871a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fff99c18f8a316a602b3aa634559028') in 0.749421 seconds 
+  Import took 0.761852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000929 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 3.mat
+  artifactKey: Guid(1dab6cf081898854996d09e35aa4a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 3.mat using Guid(1dab6cf081898854996d09e35aa4a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2920ac677468d5603a4074a742e3c3b') in 0.088525 seconds 
+  Import took 0.104774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001030 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/TrailParticle.mat
+  artifactKey: Guid(18d338a44bafb6044947c6dc990ce5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/TrailParticle.mat using Guid(18d338a44bafb6044947c6dc990ce5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe795c6aa9793a8c46a487953ea5f636') in 0.090535 seconds 
+  Import took 0.100448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/SmokeParticle.mat
+  artifactKey: Guid(136368032bbd00349be8d1a8f11169ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/SmokeParticle.mat using Guid(136368032bbd00349be8d1a8f11169ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51022d91798220202259eda76307179') in 0.070675 seconds 
+  Import took 0.083808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 2.mat
+  artifactKey: Guid(d4dc240b081e5e84fb076af90da050d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 2.mat using Guid(d4dc240b081e5e84fb076af90da050d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837336087ede633178a847fa7c6d9996') in 0.081947 seconds 
+  Import took 0.096755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.265580 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture1.png
+  artifactKey: Guid(5707fed2f46aab246ad3cf2c940dd472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture1.png using Guid(5707fed2f46aab246ad3cf2c940dd472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c665e4498c3e18cbd21d416ab30cffb1') in 0.062318 seconds 
+  Import took 0.080080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046434 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture1.png
+  artifactKey: Guid(5707fed2f46aab246ad3cf2c940dd472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture1.png using Guid(5707fed2f46aab246ad3cf2c940dd472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c665e4498c3e18cbd21d416ab30cffb1') in 0.025542 seconds 
+  Import took 0.054958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.202440 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture2.png
+  artifactKey: Guid(dcfc5d0656f24f04190261c091da67ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture2.png using Guid(dcfc5d0656f24f04190261c091da67ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a45ac5cb2eba053b0ceb696b3dbf31b') in 0.063080 seconds 
+  Import took 0.078580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013281 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture2.png
+  artifactKey: Guid(dcfc5d0656f24f04190261c091da67ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture2.png using Guid(dcfc5d0656f24f04190261c091da67ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a45ac5cb2eba053b0ceb696b3dbf31b') in 0.026080 seconds 
+  Import took 0.042911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.928903 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture3.png
+  artifactKey: Guid(e1db434fc4876b944803c58aa8d300fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture3.png using Guid(e1db434fc4876b944803c58aa8d300fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f3a1ddb0be5c2bfd98f2fcd8129ba7') in 0.054211 seconds 
+  Import took 0.069958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023518 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture3.png
+  artifactKey: Guid(e1db434fc4876b944803c58aa8d300fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/RunnerStandartTexture3.png using Guid(e1db434fc4876b944803c58aa8d300fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f3a1ddb0be5c2bfd98f2fcd8129ba7') in 0.017904 seconds 
+  Import took 0.038430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.232366 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/SmokeParticle.png
+  artifactKey: Guid(97caae699108568418826ce2e214f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/SmokeParticle.png using Guid(97caae699108568418826ce2e214f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd574beef2496029ced2fd5aa4162aebd') in 0.053090 seconds 
+  Import took 0.065631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Textures/TrailParticle.png
+  artifactKey: Guid(fa20fc146e6b29f459df3af24a16c5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Textures/TrailParticle.png using Guid(fa20fc146e6b29f459df3af24a16c5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aa32e33a672bd33c69673e6ccaf469') in 0.046583 seconds 
+  Import took 0.063507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2100ms)
+		BeginReloadAssembly (503ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (323ms)
+		EndReloadAssembly (1500ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 10.089700 ms (FindLiveObjects: 0.787200 ms CreateObjectMapping: 0.439000 ms MarkObjects: 8.808900 ms  DeleteObjects: 0.050300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.562978 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_0_0.prefab
+  artifactKey: Guid(1bd62e5d9721fee478f49542d445cd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_0_0.prefab using Guid(1bd62e5d9721fee478f49542d445cd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfab229eef06b1acc8aede1852b3997') in 0.355851 seconds 
+  Import took 0.367646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.005.prefab
+  artifactKey: Guid(b2c24963d865eba4490ca6b970e44c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.005.prefab using Guid(b2c24963d865eba4490ca6b970e44c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a844a6062f29d2c7427c6c94069219') in 0.079439 seconds 
+  Import took 0.088191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.010.prefab
+  artifactKey: Guid(f5ced966dae4aac49aef314baa23dd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.010.prefab using Guid(f5ced966dae4aac49aef314baa23dd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45225e8cb9dfb7799b2872b8ee912964') in 0.052570 seconds 
+  Import took 0.063724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.005.prefab
+  artifactKey: Guid(76e663d8fe9527142bac1ead14e9159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.005.prefab using Guid(76e663d8fe9527142bac1ead14e9159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60b3dac978a34b9a2066442fca632c9') in 0.052017 seconds 
+  Import took 0.078537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.001.prefab
+  artifactKey: Guid(3f7b67b8719c9aa44915b621a5d37cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.001.prefab using Guid(3f7b67b8719c9aa44915b621a5d37cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee3244394894b81ba727eb85126ff4c') in 0.054049 seconds 
+  Import took 0.070629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.015.prefab
+  artifactKey: Guid(3bac0ebb604c1be40a06d1ea9e1fcba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.015.prefab using Guid(3bac0ebb604c1be40a06d1ea9e1fcba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7caae1e96f174da5aaa03f22a7ac278') in 0.047969 seconds 
+  Import took 0.065895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_3_0.prefab
+  artifactKey: Guid(77fe16610cf9a04419d4aaa6ecf22b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_3_0.prefab using Guid(77fe16610cf9a04419d4aaa6ecf22b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e2e59db71b32f4c7d597d763fe6866') in 0.063955 seconds 
+  Import took 0.077933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/PlayerPosition.prefab
+  artifactKey: Guid(5131d5260846abc4195803cbb40ad0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/PlayerPosition.prefab using Guid(5131d5260846abc4195803cbb40ad0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9980c8e5e1d8f112c45be0dede0fd236') in 0.063855 seconds 
+  Import took 0.078156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.007.prefab
+  artifactKey: Guid(b11ab4a40b1e76c45b58022ae9cf465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.007.prefab using Guid(b11ab4a40b1e76c45b58022ae9cf465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab646364821473a925c6112b4febf4d') in 0.051778 seconds 
+  Import took 0.065963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.012.prefab
+  artifactKey: Guid(e1dc96c4f0b5f1f49908056972015f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.012.prefab using Guid(e1dc96c4f0b5f1f49908056972015f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e636faeeec2834ea18bd39c9aaa7da') in 0.048419 seconds 
+  Import took 0.063531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.009.prefab
+  artifactKey: Guid(093992abb4b08e44cac9585cb7b4ba55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.009.prefab using Guid(093992abb4b08e44cac9585cb7b4ba55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd318bc0ddeb894589e69af64b563cd5') in 0.060367 seconds 
+  Import took 0.070484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.010.prefab
+  artifactKey: Guid(f2c95d20777054c4189f52eee11b4a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.010.prefab using Guid(f2c95d20777054c4189f52eee11b4a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e300da9fc91efe08816060b5249f08') in 0.054427 seconds 
+  Import took 0.065673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001068 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.001.prefab
+  artifactKey: Guid(b48f1dd0239bea54481e901519edf72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.001.prefab using Guid(b48f1dd0239bea54481e901519edf72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4d95ebfe1a650da70ce50368d7ab33') in 0.050585 seconds 
+  Import took 0.060693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_2_0.prefab
+  artifactKey: Guid(41ac05af08460ed49bf311ecc262f5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_2_0.prefab using Guid(41ac05af08460ed49bf311ecc262f5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fc61f28dc50b70039dc826b449a6f3') in 0.054030 seconds 
+  Import took 0.067418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.002.prefab
+  artifactKey: Guid(97df666175674b44e88dd7868fe66d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.002.prefab using Guid(97df666175674b44e88dd7868fe66d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad4197b0455d277edd21ff0ba0e5695') in 0.048097 seconds 
+  Import took 0.062430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001207 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.017.prefab
+  artifactKey: Guid(d98f3654f2ca79c4c84b90d47106aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.017.prefab using Guid(d98f3654f2ca79c4c84b90d47106aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e62583e663895d384f2219cbb812a47') in 0.061901 seconds 
+  Import took 0.086454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001180 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.prefab
+  artifactKey: Guid(4aae2c641f3ee264f8879b6630c52737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.prefab using Guid(4aae2c641f3ee264f8879b6630c52737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062238acb66a66dd25d39d26bda6bcd9') in 0.063234 seconds 
+  Import took 0.078185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.004.prefab
+  artifactKey: Guid(1597178461f32cd49ac82e468f048eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.004.prefab using Guid(1597178461f32cd49ac82e468f048eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014d36045603cf988d261a8cdb04039f') in 0.037390 seconds 
+  Import took 0.059881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.006.prefab
+  artifactKey: Guid(9fc04343ab71c27408e2a5a87f21d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.006.prefab using Guid(9fc04343ab71c27408e2a5a87f21d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8137a4def761c0e3258099f887800da0') in 0.037383 seconds 
+  Import took 0.055733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.013.prefab
+  artifactKey: Guid(c5b00f59eb3b0ac46ae058317330ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.013.prefab using Guid(c5b00f59eb3b0ac46ae058317330ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caae7089183537d3493087d9b4700c7') in 0.055389 seconds 
+  Import took 0.066422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003142 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.012.prefab
+  artifactKey: Guid(7cee48670c825674ab6bb8c92583010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.012.prefab using Guid(7cee48670c825674ab6bb8c92583010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb130d619abe599bd3d67c63eda09e4') in 0.029826 seconds 
+  Import took 0.047171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.018.prefab
+  artifactKey: Guid(fb445d5baa671b64b93fb70283b918b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.018.prefab using Guid(fb445d5baa671b64b93fb70283b918b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ead95c949a002a9490cf68f402ec37d') in 0.037463 seconds 
+  Import took 0.053685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.011.prefab
+  artifactKey: Guid(38939cc88a31cf048817d8973eacf36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.011.prefab using Guid(38939cc88a31cf048817d8973eacf36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccc070dcecd02338e2af0c080c26078') in 0.024944 seconds 
+  Import took 0.032772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.003.prefab
+  artifactKey: Guid(86c7ba590fa2a7b468fea8c715956969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.003.prefab using Guid(86c7ba590fa2a7b468fea8c715956969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22673c84b85dc06065e8966f2e0959b2') in 0.028567 seconds 
+  Import took 0.041318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.003.prefab
+  artifactKey: Guid(7f7278b0ee9139841bc53715446b10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.003.prefab using Guid(7f7278b0ee9139841bc53715446b10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2369da537432e7df393938c5fad39d') in 0.048228 seconds 
+  Import took 0.072709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.015.prefab
+  artifactKey: Guid(6d82a273a0fb723469da1ff5014b71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.015.prefab using Guid(6d82a273a0fb723469da1ff5014b71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188c25659a55ae10f6c7d5d201f5482f') in 0.035216 seconds 
+  Import took 0.051990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001440 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.014.prefab
+  artifactKey: Guid(40edabf92e116ff4b8fe78dd3f7f7609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.014.prefab using Guid(40edabf92e116ff4b8fe78dd3f7f7609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94803b4be91a14c946172d8ca89f4e0b') in 0.050125 seconds 
+  Import took 0.077014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.011.prefab
+  artifactKey: Guid(a6c75e26e33ea624fac669206336ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.011.prefab using Guid(a6c75e26e33ea624fac669206336ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbb5190286ac12c7952ec045c3324b4') in 0.049363 seconds 
+  Import took 0.068357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.prefab
+  artifactKey: Guid(49bb0565b83927640a1470d2765de331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.prefab using Guid(49bb0565b83927640a1470d2765de331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289f53ed65fd23362833e0afaf6705b4') in 0.044297 seconds 
+  Import took 0.059041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.008.prefab
+  artifactKey: Guid(8736ec32b2bc8b146b03e8f9984f4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.008.prefab using Guid(8736ec32b2bc8b146b03e8f9984f4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0ecf56a282eb4cd37f046bbb39a70f') in 0.064297 seconds 
+  Import took 0.082412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.003.prefab
+  artifactKey: Guid(4fd53d0782db7984881e99ef7f9dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.003.prefab using Guid(4fd53d0782db7984881e99ef7f9dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321773ed618addea70a823579c4b150b') in 0.054925 seconds 
+  Import took 0.072473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.008.prefab
+  artifactKey: Guid(7b7263067debc3e40ba862752d02fe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.008.prefab using Guid(7b7263067debc3e40ba862752d02fe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0887487f49b381c1696d1bfcca22fe2') in 0.033160 seconds 
+  Import took 0.051836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000868 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.001.prefab
+  artifactKey: Guid(90d414d33beeddb4c98e836f7d201581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.001.prefab using Guid(90d414d33beeddb4c98e836f7d201581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02240e059fa63321f643a6d8cbc87534') in 0.059652 seconds 
+  Import took 0.075134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_4_0.prefab
+  artifactKey: Guid(5ad394418d48958499742f596cb69d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_4_0.prefab using Guid(5ad394418d48958499742f596cb69d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff772a65abf8c77f26429e94c09fb7f') in 0.064210 seconds 
+  Import took 0.080566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.002.prefab
+  artifactKey: Guid(8b85960bc7b408a4fbaf88c20bfbff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.002.prefab using Guid(8b85960bc7b408a4fbaf88c20bfbff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0cdd309c38b28d5264537854a2343b') in 0.057703 seconds 
+  Import took 0.069097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.007.prefab
+  artifactKey: Guid(f917e92e769e3404bb968d792ca4fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.007.prefab using Guid(f917e92e769e3404bb968d792ca4fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5992d142f8bbb5b81c153fdef2f9778') in 0.060352 seconds 
+  Import took 0.075149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Coin_Detailed.prefab
+  artifactKey: Guid(5d991e11033ba3143a586813843ae48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Coin_Detailed.prefab using Guid(5d991e11033ba3143a586813843ae48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc5e94263a404b4872a449d97e476ae') in 0.033342 seconds 
+  Import took 0.046607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001260 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_1_0.prefab
+  artifactKey: Guid(f18d96ca2cbf9f648827074d1eff5235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_1_0.prefab using Guid(f18d96ca2cbf9f648827074d1eff5235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd780b6b83faa3a1b9692eeeb05a50549') in 0.040292 seconds 
+  Import took 0.056455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_5_0.prefab
+  artifactKey: Guid(e5705f7bf82d051478faa6a6ae90528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_5_0.prefab using Guid(e5705f7bf82d051478faa6a6ae90528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef6cdf99a52222f41226d38d94a66c5') in 0.059163 seconds 
+  Import took 0.082106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.002.prefab
+  artifactKey: Guid(025d8a21c2c9b9d4ba6c2afccbd4643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.002.prefab using Guid(025d8a21c2c9b9d4ba6c2afccbd4643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7c94813aa1cd346e752e67cc6f9d3c') in 0.050386 seconds 
+  Import took 0.065508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.014.prefab
+  artifactKey: Guid(a344523ebe4b391438576063b85a7d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.014.prefab using Guid(a344523ebe4b391438576063b85a7d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd53689315c8bc8ee4f149b99c0f1674') in 0.049879 seconds 
+  Import took 0.070300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001099 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.016.prefab
+  artifactKey: Guid(87af0c43baf82414b92e0c0a7410e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.016.prefab using Guid(87af0c43baf82414b92e0c0a7410e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7283c961e2cc92408ff23289b1e9d8ab') in 0.027181 seconds 
+  Import took 0.043851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.009.prefab
+  artifactKey: Guid(4a9c2faeabd2c7c498056dd5ee72fe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.009.prefab using Guid(4a9c2faeabd2c7c498056dd5ee72fe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dde09d3d7319ebd24e1904e4d56690') in 0.044857 seconds 
+  Import took 0.063622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_6_0.prefab
+  artifactKey: Guid(814e59ca20ec2034599f90e1733623e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Decor_6_0.prefab using Guid(814e59ca20ec2034599f90e1733623e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed55a769e746faf825f154fe42cf1fe') in 0.053826 seconds 
+  Import took 0.065463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.004.prefab
+  artifactKey: Guid(8908a3ba329ce1848a66afaddca97b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Grass.004.prefab using Guid(8908a3ba329ce1848a66afaddca97b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ab7f9206d30c6fe2cee86e055cf05') in 0.064380 seconds 
+  Import took 0.079629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.001.prefab
+  artifactKey: Guid(e6fb42ccc790af541ab5fb9a63296a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.001.prefab using Guid(e6fb42ccc790af541ab5fb9a63296a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ebb8dec1d95179c537f9a440a831b8') in 0.044234 seconds 
+  Import took 0.066771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.prefab
+  artifactKey: Guid(92f6debaa42fa454eb056727541df080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.prefab using Guid(92f6debaa42fa454eb056727541df080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ace3eefa5e7c68585b0ee4700d2398') in 0.040969 seconds 
+  Import took 0.062180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.003.prefab
+  artifactKey: Guid(3e66e6d00329b124788701e5c339cce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.003.prefab using Guid(3e66e6d00329b124788701e5c339cce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02195f1578411922f1443d763a6b29a7') in 0.049334 seconds 
+  Import took 0.070367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.006.prefab
+  artifactKey: Guid(e0811c5d1c6aa324c8fb83963cb35ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.006.prefab using Guid(e0811c5d1c6aa324c8fb83963cb35ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe87a0afd8441197f21c80cb5940494') in 0.039809 seconds 
+  Import took 0.062183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.019.prefab
+  artifactKey: Guid(6e6ee6a9a56d5014d8b0ce934cb1b516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.019.prefab using Guid(6e6ee6a9a56d5014d8b0ce934cb1b516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534a6536c7855da95b7162c99e1d9266') in 0.042720 seconds 
+  Import took 0.068936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.prefab
+  artifactKey: Guid(b89d60cb1c1b2ea4c84eed582997cf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem_Detailed.prefab using Guid(b89d60cb1c1b2ea4c84eed582997cf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd8f73b1b34bb7d7016cb6ee31657fc') in 0.041104 seconds 
+  Import took 0.065777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.002.prefab
+  artifactKey: Guid(7da198c651ed1d94580cb924c4f52fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Gem.002.prefab using Guid(7da198c651ed1d94580cb924c4f52fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe97b23b309aea15b34e2a10c44b4f9') in 0.040769 seconds 
+  Import took 0.055223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.013.prefab
+  artifactKey: Guid(87d370b0d83ccbb44a9304c518d1626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Decor/Stone.013.prefab using Guid(87d370b0d83ccbb44a9304c518d1626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a7c510b2dc2ef3d619f25e4cc25299') in 0.052826 seconds 
+  Import took 0.075779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Coin.prefab
+  artifactKey: Guid(e2130f25b0192ba40b1fbce64663b919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Collected/Coin.prefab using Guid(e2130f25b0192ba40b1fbce64663b919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e62efa7e066e17f9d0a17bd20a66a7') in 0.055170 seconds 
+  Import took 0.070040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822667 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 0.mat
+  artifactKey: Guid(89212d7588c8243408420a6b2664df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 0.mat using Guid(89212d7588c8243408420a6b2664df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f920e2bd2461ca58b4ae336e1b9581') in 0.042641 seconds 
+  Import took 0.051853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 3.mat
+  artifactKey: Guid(1dab6cf081898854996d09e35aa4a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 3.mat using Guid(1dab6cf081898854996d09e35aa4a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915d651c74552818f5670ad8d8fdfa08') in 0.048813 seconds 
+  Import took 0.059280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001110 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 1.mat
+  artifactKey: Guid(ac433f04d484bb04ca305bdc6871a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 1.mat using Guid(ac433f04d484bb04ca305bdc6871a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fe2994293e9c101d38c32440ff98af') in 0.046085 seconds 
+  Import took 0.063076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 2.mat
+  artifactKey: Guid(d4dc240b081e5e84fb076af90da050d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Materials/HYPEPOLY - Runner Pack Standart Material 2.mat using Guid(d4dc240b081e5e84fb076af90da050d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84ac752c5ef0e7eb40c0c70aba0041c') in 0.056557 seconds 
+  Import took 0.064984 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2806ms)
+		BeginReloadAssembly (366ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (208ms)
+		EndReloadAssembly (2309ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (824ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (925ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (666ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3327.
+Total: 11.682600 ms (FindLiveObjects: 0.724600 ms CreateObjectMapping: 0.363500 ms MarkObjects: 10.458600 ms  DeleteObjects: 0.132600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1813ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1486ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (551ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3329.
+Total: 8.648900 ms (FindLiveObjects: 0.685100 ms CreateObjectMapping: 0.422400 ms MarkObjects: 7.496400 ms  DeleteObjects: 0.042800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1879.687678 seconds.
+  path: Assets/DreamTeamMobile/Materials
+  artifactKey: Guid(76a68ca98ac1d484e9c2c840c2205cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTeamMobile/Materials using Guid(76a68ca98ac1d484e9c2c840c2205cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae8d4ae46626db4e8bda4a250f8c7f2') in 0.048810 seconds 
+  Import took 0.067249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.540585 seconds.
+  path: Assets/DreamTeamMobile/Scenes
+  artifactKey: Guid(78112c7116c04d1448bcb81a6a138d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTeamMobile/Scenes using Guid(78112c7116c04d1448bcb81a6a138d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bd2c10aed161c312026aefb66031b0') in 0.034707 seconds 
+  Import took 0.050075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001756 seconds.
+  path: Assets/DreamTeamMobile/Scenes
+  artifactKey: Guid(78112c7116c04d1448bcb81a6a138d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTeamMobile/Scenes using Guid(78112c7116c04d1448bcb81a6a138d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bd2c10aed161c312026aefb66031b0') in 0.007673 seconds 
+  Import took 0.028278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.344938 seconds.
+  path: Assets/Game/Level1.unity
+  artifactKey: Guid(214177b850c855444849237881249ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level1.unity using Guid(214177b850c855444849237881249ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588e523e5495c30bf09d903eaf03c5ed') in 0.056750 seconds 
+  Import took 0.068530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.742663 seconds.
+  path: Assets/Game/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b286f23ab1406b66ffa7fd117ec63a') in 1.264022 seconds 
+  Import took 1.517735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Game/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7daa638a4f61892d85b4e50fee1e849') in 0.145247 seconds 
+  Import took 0.153292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Game/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07793a4d2b03e0e09167bfceb24a94b') in 0.230330 seconds 
+  Import took 0.238089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a46e45ab72210011683b98bb693f19') in 0.048724 seconds 
+  Import took 0.068633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Game/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ffefb080f2bc5460e0e031b036c2e') in 0.084091 seconds 
+  Import took 0.103296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001824 seconds.
+  path: Assets/Game/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0098d2334523c92cc3d702ca4ee63b2') in 0.102949 seconds 
+  Import took 0.121768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Game/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17f227481600cbf7b05869a1581d00') in 0.117751 seconds 
+  Import took 0.126769 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1934ms)
+		BeginReloadAssembly (339ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (204ms)
+		EndReloadAssembly (1494ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (541ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 13.984500 ms (FindLiveObjects: 0.850200 ms CreateObjectMapping: 0.551000 ms MarkObjects: 12.536100 ms  DeleteObjects: 0.044300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.322524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 9.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 41.666 seconds
+Domain Reload Profiling:
+	ReloadAssembly (42199ms)
+		BeginReloadAssembly (12751ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (1827ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (178ms)
+			CreateAndSetChildDomain (7231ms)
+		EndReloadAssembly (26957ms)
+			LoadAssemblies (2898ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (9616ms)
+			ReleaseScriptCaches (63ms)
+			RebuildScriptCaches (776ms)
+			SetupLoadedEditorAssemblies (10315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (1453ms)
+				ProcessInitializeOnLoadAttributes (8735ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (396ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3372.
+Total: 81.263700 ms (FindLiveObjects: 6.132100 ms CreateObjectMapping: 1.710200 ms MarkObjects: 72.284800 ms  DeleteObjects: 1.082800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5771.007379 seconds.
+  path: Assets/Game/Ch19_nonPBR.fbx
+  artifactKey: Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Ch19_nonPBR.fbx using Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108302c06848bdcb382d8b9ea0c0c727') in 6.618873 seconds 
+  Import took 6.722850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.286916 seconds.
+  path: Assets/Game/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763579b58169ef327fd8d483de42484') in 2.469241 seconds 
+  Import took 2.491265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Game/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2f32173df055a9d31b242b3d5989c') in 0.960315 seconds 
+  Import took 1.078367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae8946a3f99a923f7803907a8c27ead') in 0.834357 seconds 
+  Import took 0.851894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Game/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99d08570cdde3afaf55ae1a8262d9b') in 1.787985 seconds 
+  Import took 1.976179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.537314 seconds.
+  path: Assets/Game/Ch19_nonPBR.fbx
+  artifactKey: Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Ch19_nonPBR.fbx using Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3f64ec9765af6df83b6f9a1ec194fd') in 0.814633 seconds 
+  Import took 0.866987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.741394 seconds.
+  path: Assets/Game/Ch19_nonPBR@Standard Run.fbx
+  artifactKey: Guid(cf33e4736f475a642b08c360ab5816fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Ch19_nonPBR@Standard Run.fbx using Guid(cf33e4736f475a642b08c360ab5816fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646fe70ed35a83266fd80246a0059956') in 0.662792 seconds 
+  Import took 0.933798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Game/Ch19_nonPBR.fbx
+  artifactKey: Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Ch19_nonPBR.fbx using Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab455bf11b66cdbe96dd65f19b25d8a') in 0.707708 seconds 
+  Import took 0.757662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 697.439749 seconds.
+  path: Assets/Game/Ch19_nonPBR@Standard Run (1).fbx
+  artifactKey: Guid(7cface0e90d8fd949b3b7061b304d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Ch19_nonPBR@Standard Run (1).fbx using Guid(7cface0e90d8fd949b3b7061b304d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca20533c98142b6d6a540d367ef4b18d') in 2.750506 seconds 
+  Import took 4.760820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/Game/Ch19_nonPBR.fbx
+  artifactKey: Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Ch19_nonPBR.fbx using Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70d7954e37a1849184d60f8c4b907c3') in 1.138513 seconds 
+  Import took 1.215280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 694.654172 seconds.
+  path: Assets/Ch19_nonPBR@Happy Idle.fbx
+  artifactKey: Guid(bb2d25cdea91b514891cce06cc22116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch19_nonPBR@Happy Idle.fbx using Guid(bb2d25cdea91b514891cce06cc22116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadb76443c92f36558dfccefdd9746d0') in 3.800165 seconds 
+  Import took 4.536113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.962123 seconds.
+  path: Assets/Ch19_nonPBR@Running Jump.fbx
+  artifactKey: Guid(107f709dac57d414996aa41283132ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch19_nonPBR@Running Jump.fbx using Guid(107f709dac57d414996aa41283132ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4b077e2896c327d21d7fa2dfdaf7de') in 1.555527 seconds 
+  Import took 1.868362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.855394 seconds.
+  path: Assets/Ch19_nonPBR@Running Slide.fbx
+  artifactKey: Guid(c2adbe87d2c2b014a890e6c4ba7e8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch19_nonPBR@Running Slide.fbx using Guid(c2adbe87d2c2b014a890e6c4ba7e8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f182a5e59e0fa3df95596fbadb4cbcac') in 1.621444 seconds 
+  Import took 1.907622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.835137 seconds.
+  path: Assets/Game/characters
+  artifactKey: Guid(32f420dac6ea24d498891197bc9782ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters using Guid(32f420dac6ea24d498891197bc9782ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add1dda87f3c4d5157bc04458ca41615') in 0.216045 seconds 
+  Import took 0.314725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/Game/characters
+  artifactKey: Guid(32f420dac6ea24d498891197bc9782ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters using Guid(32f420dac6ea24d498891197bc9782ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add1dda87f3c4d5157bc04458ca41615') in 0.146991 seconds 
+  Import took 0.318006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.740242 seconds.
+  path: Assets/Game/characters/Ch19_nonPBR.fbx
+  artifactKey: Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters/Ch19_nonPBR.fbx using Guid(eb1f6f44334918340a8d4f13c2a910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f138b0bc192b8662690fb251fcb9785') in 3.100795 seconds 
+  Import took 3.597117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.901603 seconds.
+  path: Assets/Ch19_nonPBR@Standard Run (1).fbx
+  artifactKey: Guid(8a431e9b6d33c8c409dd32e0f16c3d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch19_nonPBR@Standard Run (1).fbx using Guid(8a431e9b6d33c8c409dd32e0f16c3d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8566a20fa1dab572f0e6070d2850a8') in 4.408909 seconds 
+  Import took 4.492030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.220574 seconds.
+  path: Assets/Game/ExampleAssets
+  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.250711 seconds 
+  Import took 0.552405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 437.443385 seconds.
+  path: Assets/Game/characters/Ch19_nonPBR@Chicken Dance.fbx
+  artifactKey: Guid(182c8116a0cdafe4ba72803a199af5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters/Ch19_nonPBR@Chicken Dance.fbx using Guid(182c8116a0cdafe4ba72803a199af5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31ee03cfa472e62f2d4f1edbb6db7bc') in 3.319785 seconds 
+  Import took 3.619480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.253827 seconds.
+  path: Assets/Game/characters/Ch19_nonPBR@Chicken Dance.fbx
+  artifactKey: Guid(182c8116a0cdafe4ba72803a199af5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters/Ch19_nonPBR@Chicken Dance.fbx using Guid(182c8116a0cdafe4ba72803a199af5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dbda985b46c2ac07cec5dbada30908') in 1.248501 seconds 
+  Import took 1.488189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 716.056951 seconds.
+  path: Assets/Game/characters/Ch19_nonPBR@Falling Back Death.fbx
+  artifactKey: Guid(87fc345213bd3074e95540baa4e92b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters/Ch19_nonPBR@Falling Back Death.fbx using Guid(87fc345213bd3074e95540baa4e92b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8996245d99ae1962a8acfe0a526121') in 1.839284 seconds 
+  Import took 2.048577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.925318 seconds.
+  path: Assets/Game/characters/character ani.controller
+  artifactKey: Guid(f229e10b093d6a942b93c80964b94601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters/character ani.controller using Guid(f229e10b093d6a942b93c80964b94601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0532c92f1846ddec2ac337236546c6') in 1.837551 seconds 
+  Import took 2.135438 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.084515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 36.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (37102ms)
+		BeginReloadAssembly (9835ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (890ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (6492ms)
+		EndReloadAssembly (24773ms)
+			LoadAssemblies (3741ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (9316ms)
+			ReleaseScriptCaches (74ms)
+			RebuildScriptCaches (1327ms)
+			SetupLoadedEditorAssemblies (6744ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (135ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (831ms)
+				ProcessInitializeOnLoadAttributes (5545ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (133ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (346ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 98.983900 ms (FindLiveObjects: 1.283300 ms CreateObjectMapping: 0.601100 ms MarkObjects: 96.974600 ms  DeleteObjects: 0.106400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1132.137577 seconds.
+  path: Assets/Game/characters/character ani.controller
+  artifactKey: Guid(f229e10b093d6a942b93c80964b94601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/characters/character ani.controller using Guid(f229e10b093d6a942b93c80964b94601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e80e9b74ef30c735b52e2f4a636b425') in 0.351867 seconds 
+  Import took 0.446176 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5407ms)
+		BeginReloadAssembly (3129ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2102ms)
+		EndReloadAssembly (2089ms)
+			LoadAssemblies (989ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (811ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (580ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 9.872200 ms (FindLiveObjects: 0.793200 ms CreateObjectMapping: 0.382700 ms MarkObjects: 8.631300 ms  DeleteObjects: 0.060800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 8.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19932ms)
+		BeginReloadAssembly (1739ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (199ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (12ms)
+			CreateAndSetChildDomain (843ms)
+		EndReloadAssembly (17464ms)
+			LoadAssemblies (2293ms)
+			RebuildTransferFunctionScriptingTraits (9ms)
+			SetupTypeCache (7297ms)
+			ReleaseScriptCaches (81ms)
+			RebuildScriptCaches (800ms)
+			SetupLoadedEditorAssemblies (4526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (91ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (616ms)
+				ProcessInitializeOnLoadAttributes (3562ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (165ms)
+				EditorAssembliesLoaded (22ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (496ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 24.898600 ms (FindLiveObjects: 4.737400 ms CreateObjectMapping: 0.355700 ms MarkObjects: 19.156100 ms  DeleteObjects: 0.294500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
