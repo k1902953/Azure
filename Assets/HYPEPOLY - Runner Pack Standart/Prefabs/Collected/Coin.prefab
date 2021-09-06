@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2871530149899180579}
   - component: {fileID: 4425631861792474562}
   - component: {fileID: -5829173663982581391}
+  - component: {fileID: 1814397859}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -57,6 +58,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,6 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &4425631861792474562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,8 +105,21 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4425631861792474563}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.6657396, y: 0.7000001, z: 0.18900025}
   m_Center: {x: 0.000000029802322, y: 0, z: 0}
+--- !u!114 &1814397859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425631861792474563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae3c81a3af44a7439d64f07dadaa51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinMP3: {fileID: 0}
