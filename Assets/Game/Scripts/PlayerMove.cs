@@ -6,6 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     Animator anim;                  // the animator
     private CharacterController pcontroller;
+    //private PathFollower pf;
     public float moveSpeed = 10;
     public float leftrightSpeed = 5;
     private bool slide = false;
@@ -14,6 +15,15 @@ public class PlayerMove : MonoBehaviour
     private bool go = false;
     private bool completedlvl = false;
     private GameManager gameManager;
+    float distanceTravelled;
+    [SerializeField] private Transform pointA;
+    [SerializeField] private Transform pointB;
+    [SerializeField] private Transform pointC;
+    [SerializeField] private Transform p0;
+    [SerializeField] private Transform p1;
+    [SerializeField] private Transform p01;
+    private float interpolateAmount;
+    private bool curveStarted = false;
 
     void Start()
     {
@@ -21,9 +31,10 @@ public class PlayerMove : MonoBehaviour
         anim.ResetTrigger("isDead");
         anim.ResetTrigger("won");
         pcontroller = GetComponent<CharacterController>();
+        
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -52,7 +63,10 @@ public class PlayerMove : MonoBehaviour
             //move foward
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
-                transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
+                transform.position += transform.forward * Time.deltaTime * moveSpeed;
+                //Vector3 move = new Vector3(0, Input.GetAxis("Vertical"), 0);
+                //pcontroller.Move(move * Time.deltaTime * moveSpeed);
+                interpolateAmount = (interpolateAmount + Time.deltaTime) % 1f;
                 anim.SetBool("movingf", true);
             }
             //move backwards
@@ -77,7 +91,7 @@ public class PlayerMove : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && anim.GetBool("inAir") == false && anim.GetBool("movingb") == false)
             {
                 anim.SetBool("inAir", true);
-                yVelocity = 12;
+                yVelocity = 11;
             }
 
             //slide
@@ -88,26 +102,26 @@ public class PlayerMove : MonoBehaviour
             }
 
             Vector3 centerY = pcontroller.center;
+            //transform.LookAt(pointC);
+            //transform.rotation = Quaternion.Euler(0, targetPosition.y, 0);
+            //Vector3 rot = new Vector3(0, (Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime)-180 , 0);
+            //transform.LookAt(rot);
+            //transform.LookAt(pointC);
 
             if (slide == true)
             {
                 anim.SetTrigger("slide");
                 transform.Translate(Vector3.forward * Time.deltaTime * 4);
                 //centerY.y = -1f;
-                //pcontroller.center = centerY;
-                //pcontroller.center = new Vector3(0, -3.5f, 0);
-                pcontroller.height = 1f;
-
-
+                pcontroller.center = new Vector3(0, 0.3f, 0);
+                pcontroller.height = 0.7f;
             }
             else if (slide == false)
             {
                 anim.ResetTrigger("slide");
                 //centerY.y = 0.77f;
-                // pcontroller.center = centerY;
+                pcontroller.center = new Vector3(0, 0.77f, 0);
                 pcontroller.height = 1.5f;
-
-                //pcontroller.center = new Vector3(0, 0.77f, 0);
             }
 
             IEnumerator SlideController()
@@ -115,6 +129,13 @@ public class PlayerMove : MonoBehaviour
                 slide = true;
                 yield return new WaitForSeconds(1f);
                 slide = false;
+            }
+
+            if(curveStarted == true)
+            {
+                //Vector3 targetPosition = new Vector3(pointC.transform.position.x, transform.position.y, pointC.transform.position.z);
+                //transform.LookAt(targetPosition);
+                //transform.Rotate(pointC.rotation);
             }
         }
     }
@@ -140,12 +161,27 @@ public class PlayerMove : MonoBehaviour
             }
             completedlvl = true;
         }
+
+        if (hit.transform.tag == "Curve")
+        {
+            transform.position = QuadrationCurve(pointA, pointB, pointC, interpolateAmount);
+            Vector3 targetPosition = new Vector3(pointC.transform.position.x, transform.position.y, pointC.transform.position.z);
+            transform.LookAt(targetPosition);
+            curveStarted = true;
+        }
+    }
+
+    //quadratic bezier curves
+    public Vector3 QuadrationCurve(Transform a, Transform b, Transform c, float t)
+    {
+        //t = (t + Time.deltaTime) % 1f;
+        p0.position = Vector3.Lerp(a.position,b.position, interpolateAmount);
+        p1.position = Vector3.Lerp(b.position, c.position, interpolateAmount);
+        return Vector3.Lerp(p0.position, p1.position, interpolateAmount);
     }
 
     public void DeathAnimationEvent()
     {
-
-        //GameManager.GameOver();
         gameManager.GameOver();
     }
 }
