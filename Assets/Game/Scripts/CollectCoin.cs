@@ -4,12 +4,26 @@ using UnityEngine;
 
 public class CollectCoin : MonoBehaviour
 {
-    public AudioSource coinMP3;
-    void OnTriggerEnter(Collider other)
+    private AudioSource coinMP3;
+
+    void Start()
     {
-        coinMP3.Play();
-        this.gameObject.SetActive(false);
-        GameManager.inst.incScore();
-        Destroy(gameObject);
+        GameObject coin  = GameObject.Find("/GameManager/coinCollect");
+        coinMP3 = coin.GetComponent<AudioSource>();
+    }
+    void OnTriggerEnter(Collider collisionInfo)
+    {
+        //if (collisionInfo.gameObject.GetComponent<Spikes_0_0>() != null)
+        //{
+        //    Destroy(gameObject);
+        //}
+
+        if (collisionInfo.tag == "Player")
+        {
+            coinMP3.Play();
+            this.gameObject.SetActive(false);
+            GameManager.inst.incScore();
+            Destroy(gameObject);
+        }
     }
 }

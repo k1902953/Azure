@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 55814091835992205}
   - component: {fileID: 4084289313681702012}
   - component: {fileID: 6752288588019709070}
-  - component: {fileID: 5182703314741392197}
   m_Layer: 0
   m_Name: Stone.011
   m_TagString: Untagged
@@ -56,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,16 +80,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5182703314741392197
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6864273685454823534}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5899421, y: 0.52646565, z: 0.5399051}
-  m_Center: {x: 0.000000014901161, y: 0, z: -0.0000001937151}
+  m_AdditionalVertexStreams: {fileID: 0}

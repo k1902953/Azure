@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 3100574164658134536}
   - component: {fileID: 2237776723491082334}
   - component: {fileID: 786844914750336874}
-  - component: {fileID: -4055580292048938782}
+  - component: {fileID: 3629341350043864426}
+  - component: {fileID: -1778724630478888252}
   m_Layer: 0
   m_Name: StoneObstakle.004
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +83,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-4055580292048938782
+--- !u!65 &3629341350043864426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8009147139926842830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 4.800003, y: 1.2, z: 0.79}
+  m_Center: {x: 0, y: 2, z: -0.000042065978}
+--- !u!64 &-1778724630478888252
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,6 +107,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5882921488279249373, guid: 7f48638c4996b254d845545e25da8c2b, type: 3}

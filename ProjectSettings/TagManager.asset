@@ -10,6 +10,8 @@ TagManager:
   - End
   - Traps
   - Curve
+  - Event
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -6,15 +6,15 @@ public class PlayerMove : MonoBehaviour
 {
     Animator anim;                  // the animator
     private CharacterController pcontroller;
-    //private PathFollower pf;
     public float moveSpeed = 10;
     public float leftrightSpeed = 5;
     private bool slide = false;
-    private float _gravity = 1;
-    private float yVelocity = 0.0f;
+    private float _gravity = 9.8f;
+    private float yVelocity;
     private bool go = false;
     private bool completedlvl = false;
     private GameManager gameManager;
+    public Animation cAnimation;
     float distanceTravelled;
     [SerializeField] private Transform pointA;
     [SerializeField] private Transform pointB;
@@ -31,11 +31,9 @@ public class PlayerMove : MonoBehaviour
         anim.ResetTrigger("isDead");
         anim.ResetTrigger("won");
         pcontroller = GetComponent<CharacterController>();
-        
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
     
-    // Update is called once per frame
     void Update()
     {
         anim.SetBool("movingf", false);
@@ -55,18 +53,22 @@ public class PlayerMove : MonoBehaviour
             }
             else
             {
-                yVelocity -= _gravity;
+                yVelocity -= _gravity * Time.deltaTime * 2 ;
             }
             velocity.y = yVelocity;
             pcontroller.Move(velocity * Time.deltaTime);
-
+            
+            if(transform.position.y < -1 && go == false)
+            {
+                StartCoroutine(PlatformLimit());
+            }
             //move foward
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 transform.position += transform.forward * Time.deltaTime * moveSpeed;
                 //Vector3 move = new Vector3(0, Input.GetAxis("Vertical"), 0);
                 //pcontroller.Move(move * Time.deltaTime * moveSpeed);
-                interpolateAmount = (interpolateAmount + Time.deltaTime) % 1f;
+                interpolateAmount = (interpolateAmount + Time.deltaTime /2 ) % 1f;
                 anim.SetBool("movingf", true);
             }
             //move backwards
@@ -88,30 +90,26 @@ public class PlayerMove : MonoBehaviour
                 anim.SetBool("runright", true);
             }
             //jump
-            if (Input.GetKey(KeyCode.Space) && anim.GetBool("inAir") == false && anim.GetBool("movingb") == false)
+            if (Input.GetKey(KeyCode.Space) && anim.GetBool("inAir") == false && anim.GetBool("movingb") == false && slide == false)
             {
                 anim.SetBool("inAir", true);
-                yVelocity = 11;
+                yVelocity = 7;
             }
 
             //slide
-            if (Input.GetKey(KeyCode.K) && slide == false && anim.GetBool("inAir") == false && anim.GetBool("movingb") == false && anim.GetBool("movingf") == true)
+            if (Input.GetKey(KeyCode.LeftShift) && slide == false && anim.GetBool("inAir") == false && anim.GetBool("movingb") == false && anim.GetBool("movingf") == true)
             {
                 //slide = true;
                 StartCoroutine(SlideController());
             }
 
             Vector3 centerY = pcontroller.center;
-            //transform.LookAt(pointC);
-            //transform.rotation = Quaternion.Euler(0, targetPosition.y, 0);
-            //Vector3 rot = new Vector3(0, (Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime)-180 , 0);
-            //transform.LookAt(rot);
-            //transform.LookAt(pointC);
+            
 
             if (slide == true)
             {
                 anim.SetTrigger("slide");
-                transform.Translate(Vector3.forward * Time.deltaTime * 4);
+                transform.Translate(Vector3.forward * Time.deltaTime * 3);
                 //centerY.y = -1f;
                 pcontroller.center = new Vector3(0, 0.3f, 0);
                 pcontroller.height = 0.7f;
@@ -124,6 +122,14 @@ public class PlayerMove : MonoBehaviour
                 pcontroller.height = 1.5f;
             }
 
+            IEnumerator PlatformLimit()
+            {
+                yield return new WaitForSeconds(1f);
+                GameManager.gameover = true;
+                go = true;
+                gameManager.GameOver();
+            }
+            
             IEnumerator SlideController()
             {
                 slide = true;
@@ -149,6 +155,8 @@ public class PlayerMove : MonoBehaviour
                 anim.SetTrigger("isDead");
                 
             }
+            cAnimation.Play("cameraAni-shake");
+            
             GameManager.gameover = true;
             go = true;
         }
@@ -159,6 +167,8 @@ public class PlayerMove : MonoBehaviour
             {
                 anim.SetTrigger("won");
             }
+            cAnimation.Play("camera-win");
+            GameManager.gamewon = true;
             completedlvl = true;
         }
 
@@ -168,6 +178,11 @@ public class PlayerMove : MonoBehaviour
             Vector3 targetPosition = new Vector3(pointC.transform.position.x, transform.position.y, pointC.transform.position.z);
             transform.LookAt(targetPosition);
             curveStarted = true;
+        } else {
+            if(transform.eulerAngles.y > 200 )
+            {
+                transform.eulerAngles = new Vector3( transform.eulerAngles.x, 270, transform.eulerAngles.z );
+            }
         }
     }
 
@@ -177,7 +192,13 @@ public class PlayerMove : MonoBehaviour
         //t = (t + Time.deltaTime) % 1f;
         p0.position = Vector3.Lerp(a.position,b.position, interpolateAmount);
         p1.position = Vector3.Lerp(b.position, c.position, interpolateAmount);
+        //p01.position = Vector3.Lerp(p0.position, p1.position, interpolateAmount);
         return Vector3.Lerp(p0.position, p1.position, interpolateAmount);
+    }
+    
+    public void VictoryAnimationEvent()
+    {
+        gameManager.GameWon();
     }
 
     public void DeathAnimationEvent()

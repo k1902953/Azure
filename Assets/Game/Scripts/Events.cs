@@ -5,7 +5,7 @@ public class Events : MonoBehaviour
 {
     public void ReplayGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     // Start is called before the first frame update
     void Start()
