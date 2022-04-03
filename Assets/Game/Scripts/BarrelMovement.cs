@@ -5,6 +5,7 @@ using UnityEngine;
 public class BarrelMovement : MonoBehaviour
 {
     public float moveSpeed = 5;
+    //public GameObject[] characterPref;
     public GameObject player;
     float distance;
     public GameObject[] objects = new GameObject[3];
@@ -15,6 +16,7 @@ public class BarrelMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         scripts = objects[0].GetComponent<Rotate>();
         scripts.enabled = false;
         scripts2 = objects[1].GetComponent<Rotate>();

@@ -5,17 +5,19 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     Animator anim;                  // the animator
-    private CharacterController pcontroller;
+    private Rigidbody pcontroller;
+    private CapsuleCollider playerCollider;
     public float moveSpeed = 10;
     public float leftrightSpeed = 5;
     private bool slide = false;
-    private float _gravity = 9.8f;
     private float yVelocity;
     private bool go = false;
     private bool completedlvl = false;
     private GameManager gameManager;
-    public Animation cAnimation;
+    private Animation cAnimation;
     float distanceTravelled;
+    bool IsGrounded;
+
     [SerializeField] private Transform pointA;
     [SerializeField] private Transform pointB;
     [SerializeField] private Transform pointC;
@@ -23,52 +25,44 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private Transform p1;
     [SerializeField] private Transform p01;
     private float interpolateAmount;
-    private bool curveStarted = false;
 
     void Start()
     {
+        cAnimation = GameObject.Find("Camera").GetComponent<Animation>();
         anim = GetComponent<Animator>();
         anim.ResetTrigger("isDead");
         anim.ResetTrigger("won");
-        pcontroller = GetComponent<CharacterController>();
+        pcontroller = GetComponent<Rigidbody>();
+        playerCollider = GetComponent<CapsuleCollider>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        //due to player prefabs created for chatacter selecting
+        if (GameManager.level == 1)
+        {
+            pointA = GameObject.Find("road/Path_90.002/pointA").transform;
+            pointB = GameObject.Find("road/Path_90.002/pointB").transform;
+            pointC = GameObject.Find("road/Path_90.002/pointC").transform;
+            p0 = GameObject.Find("road/Path_90.002/p0").transform;
+            p1 = GameObject.Find("road/Path_90.002/p1").transform;
+            p01 = GameObject.Find("road/Path_90.002/p01").transform;
+        }
     }
-    
-    void Update()
+    private void FixedUpdate()
     {
         anim.SetBool("movingf", false);
         anim.SetBool("movingb", false);
         anim.SetBool("runright", false);
         anim.SetBool("runleft", false);
-        anim.ResetTrigger("slide");
 
         if (go == false && completedlvl == false)
         {
-            Vector3 direction = new Vector3(0, 0, 0);
-            Vector3 velocity = direction * moveSpeed;
-            if (pcontroller.isGrounded == true)
-            {
-                anim.SetBool("inAir", false);
-
-            }
-            else
-            {
-                yVelocity -= _gravity * Time.deltaTime * 2 ;
-            }
-            velocity.y = yVelocity;
-            pcontroller.Move(velocity * Time.deltaTime);
-            
-            if(transform.position.y < -1 && go == false)
-            {
-                StartCoroutine(PlatformLimit());
-            }
             //move foward
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 transform.position += transform.forward * Time.deltaTime * moveSpeed;
                 //Vector3 move = new Vector3(0, Input.GetAxis("Vertical"), 0);
                 //pcontroller.Move(move * Time.deltaTime * moveSpeed);
-                interpolateAmount = (interpolateAmount + Time.deltaTime /2 ) % 1f;
+                interpolateAmount = (interpolateAmount + Time.deltaTime /3 ) % 1f;
                 anim.SetBool("movingf", true);
             }
             //move backwards
@@ -89,11 +83,32 @@ public class PlayerMove : MonoBehaviour
                 transform.Translate(Vector3.left * Time.deltaTime * leftrightSpeed * -1);
                 anim.SetBool("runright", true);
             }
-            //jump
-            if (Input.GetKey(KeyCode.Space) && anim.GetBool("inAir") == false && anim.GetBool("movingb") == false && slide == false)
+            //Jump
+            if (Input.GetKey(KeyCode.Space) && anim.GetBool("inAir") == false && slide == false && anim.GetBool("movingb") == false)
             {
+                IsGrounded = false;
                 anim.SetBool("inAir", true);
                 yVelocity = 7;
+                pcontroller.velocity += yVelocity * Vector3.up;
+            }
+        }
+    }
+    public void Update()
+    {
+        
+        anim.ResetTrigger("slide");
+
+        if (go == false && completedlvl == false)
+        {
+            Vector3 direction = new Vector3(0, 0, 0);
+            Vector3 velocity = direction * moveSpeed;
+
+            velocity.y = yVelocity;
+            //pcontroller.MovePosition(velocity * Time.deltaTime);
+
+            if (transform.position.y < -1 && go == false)
+            {
+                StartCoroutine(PlatformLimit());
             }
 
             //slide
@@ -103,7 +118,7 @@ public class PlayerMove : MonoBehaviour
                 StartCoroutine(SlideController());
             }
 
-            Vector3 centerY = pcontroller.center;
+            Vector3 centerY = playerCollider.center;
             
 
             if (slide == true)
@@ -111,15 +126,33 @@ public class PlayerMove : MonoBehaviour
                 anim.SetTrigger("slide");
                 transform.Translate(Vector3.forward * Time.deltaTime * 3);
                 //centerY.y = -1f;
-                pcontroller.center = new Vector3(0, 0.3f, 0);
-                pcontroller.height = 0.7f;
+                if(PlayerPrefs.GetInt("selectCharacter") < 1)
+                {
+                    playerCollider.center = new Vector3(0, 0.3f, 0);
+                    playerCollider.height = 0.6f;
+                }
+                else
+                {
+                    playerCollider.center = new Vector3(0, 0.5f, 0);
+                    playerCollider.height = 0.3f;
+                }
+                
             }
             else if (slide == false)
             {
                 anim.ResetTrigger("slide");
                 //centerY.y = 0.77f;
-                pcontroller.center = new Vector3(0, 0.77f, 0);
-                pcontroller.height = 1.5f;
+                if (PlayerPrefs.GetInt("selectCharacter") < 1)
+                {
+
+                    playerCollider.center = new Vector3(0, 0.77f, 0);
+                    playerCollider.height = 1.5f;
+                }
+                else
+                {
+                    playerCollider.center = new Vector3(0, 0.42f, 0);
+                    playerCollider.height = 1.6f;
+                }
             }
 
             IEnumerator PlatformLimit()
@@ -137,18 +170,18 @@ public class PlayerMove : MonoBehaviour
                 slide = false;
             }
 
-            if(curveStarted == true)
-            {
-                //Vector3 targetPosition = new Vector3(pointC.transform.position.x, transform.position.y, pointC.transform.position.z);
-                //transform.LookAt(targetPosition);
-                //transform.Rotate(pointC.rotation);
-            }
         }
     }
 
-    public void OnControllerColliderHit(ControllerColliderHit hit)
+    public void OnCollisionEnter(Collision hit)
     {
-        if(hit.transform.tag == "Traps" && go == false)
+        if (hit.transform.tag == "Floor")
+        {
+            IsGrounded = true;
+            anim.SetBool("inAir", false);
+        }
+
+        if (hit.transform.tag == "Traps" && go == false)
         {
             if (anim.GetBool("isDead") == false)
             {
@@ -166,6 +199,7 @@ public class PlayerMove : MonoBehaviour
             if (anim.GetBool("won") == false)
             {
                 anim.SetTrigger("won");
+                anim.SetInteger("danceSelection", PlayerPrefs.GetInt("selectDance"));
             }
             cAnimation.Play("camera-win");
             GameManager.gamewon = true;
@@ -177,7 +211,6 @@ public class PlayerMove : MonoBehaviour
             transform.position = QuadrationCurve(pointA, pointB, pointC, interpolateAmount);
             Vector3 targetPosition = new Vector3(pointC.transform.position.x, transform.position.y, pointC.transform.position.z);
             transform.LookAt(targetPosition);
-            curveStarted = true;
         } else {
             if(transform.eulerAngles.y > 200 )
             {
@@ -190,7 +223,7 @@ public class PlayerMove : MonoBehaviour
     public Vector3 QuadrationCurve(Transform a, Transform b, Transform c, float t)
     {
         //t = (t + Time.deltaTime) % 1f;
-        p0.position = Vector3.Lerp(a.position,b.position, interpolateAmount);
+        p0.position = Vector3.Lerp(a.position, b.position, interpolateAmount);
         p1.position = Vector3.Lerp(b.position, c.position, interpolateAmount);
         //p01.position = Vector3.Lerp(p0.position, p1.position, interpolateAmount);
         return Vector3.Lerp(p0.position, p1.position, interpolateAmount);

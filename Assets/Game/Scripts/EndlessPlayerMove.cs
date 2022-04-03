@@ -131,10 +131,6 @@ public class EndlessPlayerMove : MonoBehaviour
 
     public void OnCollisionEnter(Collision hit)
     {
-        if (hit.transform.tag != "Untagged")
-        {
-            Debug.Log(hit.gameObject);
-        }
 
         if (hit.transform.tag == "Floor")
         {
@@ -142,7 +138,6 @@ public class EndlessPlayerMove : MonoBehaviour
             anim.SetBool("inAir", false);
         }
         
-
         if ((hit.transform.tag == "Traps" || hit.transform.tag == "Obstacle") && go == false)
         {
             if (beenHit == false)
@@ -170,9 +165,7 @@ public class EndlessPlayerMove : MonoBehaviour
                     beenHit = false;
                 }
             }
-
         }
-
     }
 
     //public void VictoryAnimationEvent()

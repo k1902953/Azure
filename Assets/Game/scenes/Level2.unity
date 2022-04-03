@@ -14,19 +14,19 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
   m_FogMode: 1
-  m_FogDensity: 0
-  m_LinearFogStart: 3.84
+  m_FogDensity: 0.02
+  m_LinearFogStart: -1.45
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 2bd8959f5fbd3644aa33af1a155fc147, type: 2}
+  m_SubtractiveShadowColor: {r: 0.3555981, g: 0.4178264, b: 0.5754717, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: cc421da483ed06c49933077a621bff25, type: 2}
   m_HaloStrength: 0.058
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.070610754, g: 0.35365066, b: 0.9700002, a: 1}
+  m_IndirectSpecularColor: {r: 0.0704607, g: 0.35358098, b: 0.97004503, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: d075e9d81d2964945a56dcd44ac5273a, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: f6480fe2d4548944abf2e10a3054a649, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 5b4cf6c649e89478989801f20b0df37d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1133,6 +1133,7 @@ GameObject:
   - component: {fileID: 101135857}
   - component: {fileID: 101135858}
   - component: {fileID: 101135859}
+  - component: {fileID: 101135860}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1168,7 +1169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  level: 0
   coinPoints: 10
   heart1: {fileID: 0}
   heart2: {fileID: 0}
@@ -1199,6 +1199,23 @@ MonoBehaviour:
   wonStar: {fileID: 21300000, guid: f77dd2ce1e5e084419826b0521e1b3ae, type: 3}
   noStar: {fileID: 21300000, guid: dab0b41648f89844da70cb73dedc82f3, type: 3}
   bonusTxt: {fileID: 1013851262}
+--- !u!114 &101135860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101135856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dee2829adb2447898f2f127a4fe6f3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPref:
+  - {fileID: 4092248294243444654, guid: 32c6be57245b34e92af37d31e06bbdf5, type: 3}
+  - {fileID: 3237779467892733039, guid: 74a051accb1324fedb46f99d0b40ba51, type: 3}
+  - {fileID: 5924780288353791253, guid: e6288445e00b7412fb762e744da0934c, type: 3}
+  rezPoint: {fileID: 1393974498}
 --- !u!1 &106279049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,7 +1453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148427551}
   m_LocalRotation: {x: 0.07062701, y: -0, z: -0, w: 0.9975028}
-  m_LocalPosition: {x: -0.3215613, y: 5.1, z: -9.6}
+  m_LocalPosition: {x: 0, y: 5.1, z: -9.6}
   m_LocalScale: {x: 1, y: 1.0134128, z: 2.8854296}
   m_Children:
   - {fileID: 1368439542}
@@ -3117,7 +3134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  player: {fileID: 1118517315}
+  player: {fileID: 0}
   objects:
   - {fileID: 198959822}
   - {fileID: 1367989923}
@@ -3760,6 +3777,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5e53d257367f74e4cab1cb671ca9959d, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e53d257367f74e4cab1cb671ca9959d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5e53d257367f74e4cab1cb671ca9959d, type: 3}
       propertyPath: m_TagString
@@ -6628,7 +6649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  player: {fileID: 1118517315}
+  player: {fileID: 0}
   objects:
   - {fileID: 27563126}
   - {fileID: 805281931}
@@ -9826,7 +9847,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   leftrightSpeed: 5
-  cAnimation: {fileID: 148427552}
   pointA: {fileID: 0}
   pointB: {fileID: 0}
   pointC: {fileID: 0}
@@ -11854,6 +11874,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2130f25b0192ba40b1fbce64663b919, type: 3}
+--- !u!1 &1393974497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393974498}
+  m_Layer: 0
+  m_Name: playerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1393974498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393974497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01, y: 3.64, z: 3.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1396887789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 617733694361891638, guid: e0811c5d1c6aa324c8fb83963cb35ca3, type: 3}
@@ -14742,7 +14792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  player: {fileID: 1118517315}
+  player: {fileID: 0}
   objects:
   - {fileID: 819334452}
   - {fileID: 1585496291}

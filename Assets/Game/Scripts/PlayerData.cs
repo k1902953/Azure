@@ -9,7 +9,7 @@ public class PlayerData
 
     public PlayerData (GameManager gm)
     {
-        level = gm.level;
+        //level = gm.level;
         //rating = rate.rating;
     }
 }

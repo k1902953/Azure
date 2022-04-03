@@ -16,7 +16,6 @@ public class AudioManager : MonoBehaviour
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("MainCamera");
         temp = GameObject.Find("Main Camera");
-        //temp = GameObject.Find("Camera");
         if (objs.Length > 1)
         {
             Destroy(Audio.gameObject);

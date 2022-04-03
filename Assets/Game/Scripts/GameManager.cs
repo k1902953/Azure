@@ -8,7 +8,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public int score;
-    public int level;
+    public static int level;
     public int coinPoints = 10;
     public static GameManager inst;
     public static bool gameover;
