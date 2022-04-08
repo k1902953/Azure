@@ -181,8 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd0c543019c2b1f4298293a0e4c6e4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Audio: {fileID: 0}
-  switchon: {fileID: 0}
   storeBtn: {fileID: 0}
   loadingScreen: {fileID: 0}
   slider: {fileID: 0}
@@ -344,7 +342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  level: 0
   coinPoints: 5
   heart1: {fileID: 354778019}
   heart2: {fileID: 756269809}
@@ -4296,8 +4293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd0c543019c2b1f4298293a0e4c6e4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Audio: {fileID: 0}
-  switchon: {fileID: 0}
   storeBtn: {fileID: 0}
   loadingScreen: {fileID: 0}
   slider: {fileID: 0}
@@ -6968,8 +6963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd0c543019c2b1f4298293a0e4c6e4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Audio: {fileID: 0}
-  switchon: {fileID: 0}
   storeBtn: {fileID: 0}
   loadingScreen: {fileID: 1008507715}
   slider: {fileID: 1113621136}

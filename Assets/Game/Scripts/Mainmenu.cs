@@ -37,6 +37,7 @@ public class Mainmenu : MonoBehaviour
         {
             StarsDisplayed("rating1", 0, 3);
             StarsDisplayed("rating2", 3, 6);
+            StarsDisplayed("rating3", 6, 9);
         }
 
         for (int i = 0; i < GameManager.prefsRatings.Length; i++)
@@ -144,7 +145,7 @@ public class Mainmenu : MonoBehaviour
 
     public void Next()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             
             //StartCoroutine(LoadAsynchronously("level2"));

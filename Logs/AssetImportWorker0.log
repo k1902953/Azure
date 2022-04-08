@@ -1,0 +1,1290 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/alex/Documents/GitHub/HoverTrail
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49270
+Successfully changed project path to: /Users/alex/Documents/GitHub/HoverTrail
+/Users/alex/Documents/GitHub/HoverTrail
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/alex/Documents/GitHub/HoverTrail/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-08 13:04:39.074 Unity[1093:9863] (null) preferred device: Apple M1 Pro (high power)
+2022-04-08 13:04:39.074 Unity[1093:9863] Metal devices available: 1
+2022-04-08 13:04:39.074 Unity[1093:9863] 0: Apple M1 Pro (high power)
+2022-04-08 13:04:39.075 Unity[1093:9863] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56093
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003554 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1395ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1178ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (610ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2670ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2296ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (897ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.015602 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.019629 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+2022-04-08 13:04:45.540 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000992060 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-08 13:04:45.544 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009bab50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3584 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.5 MB.
+System memory in use after: 277.4 MB.
+
+Unloading 169 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 2.624292 ms (FindLiveObjects: 0.186666 ms CreateObjectMapping: 0.084167 ms MarkObjects: 2.139292 ms  DeleteObjects: 0.213458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game/scenes/Level3.unity
+  artifactKey: Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level3.unity using Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31ac3f56603bc2d7029de581a84cc5e') in 0.022868 seconds 
+  Import took 0.027761 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 13:11:57.720 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009a1e30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2843ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2554ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (807ms)
+				ProcessInitializeOnLoadMethodAttributes (303ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.1 MB.
+System memory in use after: 267.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4069.
+Total: 2.384250 ms (FindLiveObjects: 0.175208 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.104791 ms  DeleteObjects: 0.023333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 445.520431 seconds.
+  path: Assets/Game/scenes/Level2.unity
+  artifactKey: Guid(f2076d3e5528c41faa5af4b96a601896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level2.unity using Guid(f2076d3e5528c41faa5af4b96a601896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23b05b551a6e5c278c5eb8cb55abe1') in 0.022427 seconds 
+  Import took 0.027072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.311215 seconds.
+  path: Assets/Game/scenes/Level1.unity
+  artifactKey: Guid(214177b850c855444849237881249ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level1.unity using Guid(214177b850c855444849237881249ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8746d9e0da6f1fe250222d74f98756ba') in 0.002530 seconds 
+  Import took 0.008948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.618220 seconds.
+  path: Assets/Game/Models/Barrel-Material.mat
+  artifactKey: Guid(b8ad6d9491ada4ed18860786776c388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Barrel-Material.mat using Guid(b8ad6d9491ada4ed18860786776c388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d9f3535e56476e268312daaefb80b1') in 1.012257 seconds 
+  Import took 1.018491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game/Models/barrel.fbx
+  artifactKey: Guid(fb34153ddefea45e6992885fb592d3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/barrel.fbx using Guid(fb34153ddefea45e6992885fb592d3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6a88fc3c03ba6a1a703432226f10c7') in 0.187553 seconds 
+  Import took 0.193768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game/Models/Barrel_Occlusion.png
+  artifactKey: Guid(10ba2772d7bea4b9db5e37d70926712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Barrel_Occlusion.png using Guid(10ba2772d7bea4b9db5e37d70926712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba62f199009a99977c17b53d062756a') in 0.373272 seconds 
+  Import took 0.380016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Game/Models/barrel_3ds.3ds
+  artifactKey: Guid(af7f87ad1f13f4bd083b90f1ee8785cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/barrel_3ds.3ds using Guid(af7f87ad1f13f4bd083b90f1ee8785cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e609658270ca9debf569e7c6bd0e98d') in 0.183328 seconds 
+  Import took 0.190015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Game/Models/barrel_obj.obj
+  artifactKey: Guid(bcab37760bcaf447283a9c854df85abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/barrel_obj.obj using Guid(bcab37760bcaf447283a9c854df85abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73acf3f3f190c0289e189338ead7f3a') in 0.501066 seconds 
+  Import took 0.507865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Game/Models/Barrel_Albedo_F.png
+  artifactKey: Guid(36a2a32c580a44afea93010c4fd73aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Barrel_Albedo_F.png using Guid(36a2a32c580a44afea93010c4fd73aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83288fd31530948387886363fd9c69f0') in 0.008535 seconds 
+  Import took 0.012542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.136987 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Arrow_0_0.prefab
+  artifactKey: Guid(688312ee304b5564385a91484ca925e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Arrow_0_0.prefab using Guid(688312ee304b5564385a91484ca925e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902cb671ed31171b409ab8f123da4b63') in 0.075951 seconds 
+  Import took 0.082630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_3_0.prefab
+  artifactKey: Guid(d0755b95f12a7974d91680fa18d22d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_3_0.prefab using Guid(d0755b95f12a7974d91680fa18d22d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f92bd3fd9778fc142bce0d34f7d077d') in 0.013265 seconds 
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_2_0.prefab
+  artifactKey: Guid(574834ac538ac3d41b6277572c769c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_2_0.prefab using Guid(574834ac538ac3d41b6277572c769c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ee36c7a49ed1b304fcf05d0b724093') in 0.009417 seconds 
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.004.prefab
+  artifactKey: Guid(f35223294c5340945bf54b080792b05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.004.prefab using Guid(f35223294c5340945bf54b080792b05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ccc0cc97fa63775315a87f55ec77e2') in 0.013002 seconds 
+  Import took 0.017135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_4_0.prefab
+  artifactKey: Guid(92743202221c5bf4288098e36f2995d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_4_0.prefab using Guid(92743202221c5bf4288098e36f2995d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f0a5c0bc97dd6dc0b3ffe2dd098f63') in 0.010655 seconds 
+  Import took 0.015097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_2_0.prefab
+  artifactKey: Guid(67b5b22c227e4b24d8a59e6b6231b21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_2_0.prefab using Guid(67b5b22c227e4b24d8a59e6b6231b21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea359cb0078e21831fc4efbc99ebc38b') in 0.035384 seconds 
+  Import took 0.040047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_3_0.prefab
+  artifactKey: Guid(83ccb159a25c9ad4eb656b18dfc8e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_3_0.prefab using Guid(83ccb159a25c9ad4eb656b18dfc8e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e53ed012d4beb13215060d2101ea1e0') in 0.012075 seconds 
+  Import took 0.016492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.001.prefab
+  artifactKey: Guid(0076055d366bc8a43ac710215484f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.001.prefab using Guid(0076055d366bc8a43ac710215484f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592deb1c361078ffc0590a968c9451ce') in 0.009192 seconds 
+  Import took 0.013646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Spikes_0_0.prefab
+  artifactKey: Guid(7b989d00c7a85ed4c8f8254369b90631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Spikes_0_0.prefab using Guid(7b989d00c7a85ed4c8f8254369b90631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2347cf04c388f063f206d60b0b7e0259') in 0.013796 seconds 
+  Import took 0.018197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/FireDispenser_2_0.prefab
+  artifactKey: Guid(84a3da2bbc152824298f593b9cd502da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/FireDispenser_2_0.prefab using Guid(84a3da2bbc152824298f593b9cd502da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76de42dc143b1b0f3640775d95e59e10') in 0.013111 seconds 
+  Import took 0.017326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_0.prefab
+  artifactKey: Guid(7fd725d48b183f245a74cf3113aa1764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_0.prefab using Guid(7fd725d48b183f245a74cf3113aa1764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36055406a22774588c97170404d517d') in 0.010808 seconds 
+  Import took 0.014892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_5_0.prefab
+  artifactKey: Guid(e7714841764acc44fb273af116016383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_5_0.prefab using Guid(e7714841764acc44fb273af116016383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602671cf6bad44c511c077395eb9b692') in 0.009248 seconds 
+  Import took 0.013068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_2_0.prefab
+  artifactKey: Guid(8bc8c708bbaf1eb4a844f0241535966a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_2_0.prefab using Guid(8bc8c708bbaf1eb4a844f0241535966a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0900878205235e0e0a1e6ed389ffe5e3') in 0.010974 seconds 
+  Import took 0.015317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_0_0.prefab
+  artifactKey: Guid(3fbb2053700dc02409fec9118cfbc128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_0_0.prefab using Guid(3fbb2053700dc02409fec9118cfbc128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78bc84101e047da46193f3047980c10') in 0.009642 seconds 
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_1_0.prefab
+  artifactKey: Guid(b29a54d6eb4786f4bb4997f2af57b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_1_0.prefab using Guid(b29a54d6eb4786f4bb4997f2af57b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5404f92b7db9121838b68404d9b403') in 0.012235 seconds 
+  Import took 0.016522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_4_0.prefab
+  artifactKey: Guid(6d17450baba9a894eaf867e74e3a26fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_4_0.prefab using Guid(6d17450baba9a894eaf867e74e3a26fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e9dc9ea0cbf9574fed461dfdbbe6de') in 0.009376 seconds 
+  Import took 0.013233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Dispenser_1_0.prefab
+  artifactKey: Guid(ea3fc3d5e919bb942942f61fedcf22cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Dispenser_1_0.prefab using Guid(ea3fc3d5e919bb942942f61fedcf22cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aab0f3437ae78f43f75ad055e06671') in 0.013279 seconds 
+  Import took 0.017640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_5_0.prefab
+  artifactKey: Guid(5e0e0af8a53a26c41b5a1cea0d6c9d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_5_0.prefab using Guid(5e0e0af8a53a26c41b5a1cea0d6c9d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a505c1e22ef8229d7327083c0525c505') in 0.009094 seconds 
+  Import took 0.013275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Spikes_1_0.prefab
+  artifactKey: Guid(4687b5dc63035ed42b94b9715809bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Spikes_1_0.prefab using Guid(4687b5dc63035ed42b94b9715809bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151467dcf3628dd91f1d8a0fa1b34f04') in 0.011417 seconds 
+  Import took 0.015667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.002.prefab
+  artifactKey: Guid(0c80b44761fb30941bab35a7f4cbcad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.002.prefab using Guid(0c80b44761fb30941bab35a7f4cbcad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03fbf3c10df0250c03ee54325b75cfc') in 0.008896 seconds 
+  Import took 0.013093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_3_0.prefab
+  artifactKey: Guid(293867bb5a86b014599796d6134e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_3_0.prefab using Guid(293867bb5a86b014599796d6134e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7974fa5ea431dde14acd096b8224582e') in 0.009141 seconds 
+  Import took 0.013537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/FireDispenser_0_0.prefab
+  artifactKey: Guid(73dae65386e9f404998eb23760186053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/FireDispenser_0_0.prefab using Guid(73dae65386e9f404998eb23760186053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385178f0639ef089d3c8ca9afa4c373') in 0.013486 seconds 
+  Import took 0.017919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_4_0.prefab
+  artifactKey: Guid(96b6f36b228635d45b58e402d4bb4cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_4_0.prefab using Guid(96b6f36b228635d45b58e402d4bb4cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c97928ffcf4d2249fb68b74990ae5') in 0.009629 seconds 
+  Import took 0.013760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_1_0.prefab
+  artifactKey: Guid(48317c71a12ca094ab9975b8343beed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_1_0.prefab using Guid(48317c71a12ca094ab9975b8343beed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91bc0f6ab84d669a1fd507ac32f3f6f') in 0.010677 seconds 
+  Import took 0.015037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_3.prefab
+  artifactKey: Guid(6405b792e0f36ec4c805d0f7040b6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_3.prefab using Guid(6405b792e0f36ec4c805d0f7040b6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a400897747c444cb63799ff778e4ab') in 0.010123 seconds 
+  Import took 0.014358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_0_0.prefab
+  artifactKey: Guid(39a9c4a072a46ac4e9ee2ca4bd7669aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_0_0.prefab using Guid(39a9c4a072a46ac4e9ee2ca4bd7669aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af10a734c03f8ee92309b6a4948b2cb8') in 0.012543 seconds 
+  Import took 0.017078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_3_0.prefab
+  artifactKey: Guid(dbe79ea0f3306fb49a182fb6344cff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_3_0.prefab using Guid(dbe79ea0f3306fb49a182fb6344cff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bfdabfe2db515a2f1c70cf82e78f15') in 0.012852 seconds 
+  Import took 0.017064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_4.prefab
+  artifactKey: Guid(e9ed788b4f328a943b0b6d6a47cef6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_4.prefab using Guid(e9ed788b4f328a943b0b6d6a47cef6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb060a8ba43731320bca6c9c6719752') in 0.010165 seconds 
+  Import took 0.014369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Pressure_0_0.prefab
+  artifactKey: Guid(e1b8e191a9970e5409650a562c5770be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Pressure_0_0.prefab using Guid(e1b8e191a9970e5409650a562c5770be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652cec829d79342ae04c5c7ba526f514') in 0.012986 seconds 
+  Import took 0.017435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.005.prefab
+  artifactKey: Guid(30165abc6b492a44fb254116c96b57d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.005.prefab using Guid(30165abc6b492a44fb254116c96b57d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6c83a01a20eea29e4738c0a2984a8d') in 0.009359 seconds 
+  Import took 0.013371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Dispenser_0_0.prefab
+  artifactKey: Guid(322a27068a43962448918cf8b17a1c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Dispenser_0_0.prefab using Guid(322a27068a43962448918cf8b17a1c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea5846ac13e5f5b8c7b4e25dda1ed14') in 0.011895 seconds 
+  Import took 0.016155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_5_0.prefab
+  artifactKey: Guid(68a15deb45e23da46b1928b7a10f5555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_5_0.prefab using Guid(68a15deb45e23da46b1928b7a10f5555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbe18ec68d4625f850fb24657728b82') in 0.009588 seconds 
+  Import took 0.014330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.003.prefab
+  artifactKey: Guid(ea2cbf12c06c1f84fba7738637afe712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.003.prefab using Guid(ea2cbf12c06c1f84fba7738637afe712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ead121bdb86a6a12dbce7a5fe17b10') in 0.008734 seconds 
+  Import took 0.012984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Dispenser_2_0.prefab
+  artifactKey: Guid(ac7426d9491ad294b82013d93dc10153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Dispenser_2_0.prefab using Guid(ac7426d9491ad294b82013d93dc10153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ef6971e38225d56381c6ac047c9e9b') in 0.012338 seconds 
+  Import took 0.016948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_3_0.prefab
+  artifactKey: Guid(2681ddb1fe40e924697f8d879cd93e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_3_0.prefab using Guid(2681ddb1fe40e924697f8d879cd93e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e41bc89425c892907c867ad46a22c6') in 0.011238 seconds 
+  Import took 0.015928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_1.prefab
+  artifactKey: Guid(73f15fa1aa265944e9ed19493971f1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_1.prefab using Guid(73f15fa1aa265944e9ed19493971f1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab79f692977a7b933009ac6c36f092aa') in 0.011398 seconds 
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.006.prefab
+  artifactKey: Guid(10f7f67c9b3859c4582d9adcd47f9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.006.prefab using Guid(10f7f67c9b3859c4582d9adcd47f9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdada6eff883c3b9aaff006f2f432c8') in 0.009387 seconds 
+  Import took 0.013755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/FireDispenser_1_0.prefab
+  artifactKey: Guid(331b331eff44f5a45bfd25c3c7fb5479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/FireDispenser_1_0.prefab using Guid(331b331eff44f5a45bfd25c3c7fb5479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eaa6fc6a47a1be2faa3700ba9b9493') in 0.010752 seconds 
+  Import took 0.015527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Arrow_1_0.prefab
+  artifactKey: Guid(ca0331b97959a8d40b40f1cc8e66ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Arrow_1_0.prefab using Guid(ca0331b97959a8d40b40f1cc8e66ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364712ed48a939920cec536d9751435b') in 0.009525 seconds 
+  Import took 0.014135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Pressure_1_0.prefab
+  artifactKey: Guid(22104674408efc5459da49757f308f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Pressure_1_0.prefab using Guid(22104674408efc5459da49757f308f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57260d5fdca5cfc21217ff40f6f9e66') in 0.013210 seconds 
+  Import took 0.017744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_2_0.prefab
+  artifactKey: Guid(3e2c5ee776423f644b32c5cd073e6fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_2_0.prefab using Guid(3e2c5ee776423f644b32c5cd073e6fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1d31cd0a1a7ae053f660511189eae1') in 0.009067 seconds 
+  Import took 0.013228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_5_0.prefab
+  artifactKey: Guid(7f3c4f61d683cdd4d95238c10cb9d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Blades_5_0.prefab using Guid(7f3c4f61d683cdd4d95238c10cb9d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f080c7d1aae0ed3758291e9c31d9e8') in 0.010657 seconds 
+  Import took 0.014976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.007.prefab
+  artifactKey: Guid(9dd2ba2e3fab01e489cdbf4ad2e4aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.007.prefab using Guid(9dd2ba2e3fab01e489cdbf4ad2e4aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f8aeb9c492eefa4c42c212331c4bd7') in 0.009876 seconds 
+  Import took 0.014507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_0_0.prefab
+  artifactKey: Guid(08d150ad73d91d143a5f03444d46c292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_0_0.prefab using Guid(08d150ad73d91d143a5f03444d46c292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe2b2e7ea29f6964320a6f4a8585b3') in 0.009475 seconds 
+  Import took 0.013732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_0_0.prefab
+  artifactKey: Guid(38e3a2e04c0f2a24aa5f348c0d75d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Hang_Saw_0_0.prefab using Guid(38e3a2e04c0f2a24aa5f348c0d75d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca24bf725b4b0529c1e7cd1e6fb97f7') in 0.011849 seconds 
+  Import took 0.016554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_5.prefab
+  artifactKey: Guid(842dd5b880d207b4ca6e8c4e805a6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_5.prefab using Guid(842dd5b880d207b4ca6e8c4e805a6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2211a6fbe1a9fd8240a147602471975f') in 0.010429 seconds 
+  Import took 0.014885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_1_0.prefab
+  artifactKey: Guid(097df429123094b47bd9eb08d8117ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_1_0.prefab using Guid(097df429123094b47bd9eb08d8117ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4336cff754336b2c5b30220eee0e01') in 0.008947 seconds 
+  Import took 0.013350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_2_0.prefab
+  artifactKey: Guid(00a7cf084cb4c6a49a8d376c9ee81a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_2_0.prefab using Guid(00a7cf084cb4c6a49a8d376c9ee81a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fe73ed9becde40760febf28c5b3e88') in 0.008962 seconds 
+  Import took 0.013072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_1_0.prefab
+  artifactKey: Guid(cd38820c28fb6e048a80126756223bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Big_1_0.prefab using Guid(cd38820c28fb6e048a80126756223bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbce5e14385b10287594042d01a08674') in 0.008817 seconds 
+  Import took 0.012860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_1_0.prefab
+  artifactKey: Guid(e9f13f0af454e91449d5ade0bc60331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_1_0.prefab using Guid(e9f13f0af454e91449d5ade0bc60331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb3e8569b7943f8ac5fec2712f68b9') in 0.009428 seconds 
+  Import took 0.013620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_4_0.prefab
+  artifactKey: Guid(12def4af1eb8a984a82a53a364abcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Static_4_0.prefab using Guid(12def4af1eb8a984a82a53a364abcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd35f512f58c6f9e0b8af3993274684d') in 0.008821 seconds 
+  Import took 0.012725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_0_0.prefab
+  artifactKey: Guid(830cec5c103809e4493cea924bba3923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Saw_Medium_0_0.prefab using Guid(830cec5c103809e4493cea924bba3923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579587c71ff9ebc25440ff16a06f2f2f') in 0.008664 seconds 
+  Import took 0.012436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_2.prefab
+  artifactKey: Guid(e451de0b12e78d642be6cafc92600404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/Mooved_Blades_2.prefab using Guid(e451de0b12e78d642be6cafc92600404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30cb92d97c0746797fbcd4ab3a40559') in 0.010066 seconds 
+  Import took 0.014478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.955830 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.prefab
+  artifactKey: Guid(0ab46fc005eb9114595b3f0a5bf01a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Traps/StoneObstakle.prefab using Guid(0ab46fc005eb9114595b3f0a5bf01a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80544cda766892c86d448fe7eb1891c7') in 0.009614 seconds 
+  Import took 0.014295 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 13:20:08.977 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009fe220 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2734ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2396ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (898ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (76ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 295.7 MB.
+System memory in use after: 296.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4153.
+Total: 3.021750 ms (FindLiveObjects: 0.213542 ms CreateObjectMapping: 0.093166 ms MarkObjects: 2.679959 ms  DeleteObjects: 0.034084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 504.357236 seconds.
+  path: Assets/Game/scenes/Level3.unity
+  artifactKey: Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level3.unity using Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5505a83b05177c2882e5626b25444ab') in 0.024727 seconds 
+  Import took 0.029795 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 13:23:25.699 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009fd810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.492 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2493ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2209ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1061ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (826ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.0 MB.
+System memory in use after: 296.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4155.
+Total: 2.422166 ms (FindLiveObjects: 0.144834 ms CreateObjectMapping: 0.075291 ms MarkObjects: 2.175792 ms  DeleteObjects: 0.025375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.652361 seconds.
+  path: Assets/Game/scenes/Level3.unity
+  artifactKey: Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level3.unity using Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830f4e2eeee1fcf0aa85bd7261da009') in 0.024606 seconds 
+  Import took 0.029318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 461.081403 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.001.prefab
+  artifactKey: Guid(e34ce0f34761aa04bbbce6588696f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.001.prefab using Guid(e34ce0f34761aa04bbbce6588696f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472c80090154e546377690fc9b9285f5') in 0.412036 seconds 
+  Import took 0.416904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_45.001.prefab
+  artifactKey: Guid(5b1811f0ea08d77499fd6a244cba49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_45.001.prefab using Guid(5b1811f0ea08d77499fd6a244cba49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8344050ca15defb7c64d8cfb1dbd2a') in 0.020838 seconds 
+  Import took 0.024755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.003.prefab
+  artifactKey: Guid(8819cd84aff91e74d814fd8903e562b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.003.prefab using Guid(8819cd84aff91e74d814fd8903e562b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaed331f602b55656f225f6a41b910f') in 0.013010 seconds 
+  Import took 0.017418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_End.prefab
+  artifactKey: Guid(1c487a00339c5c449a69a41947812c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_End.prefab using Guid(1c487a00339c5c449a69a41947812c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc09c7e453fc328faa1a82da2d87fcb') in 0.012898 seconds 
+  Import took 0.017362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.001.prefab
+  artifactKey: Guid(677850a295f8b2a4590b28d5a2c33ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.001.prefab using Guid(677850a295f8b2a4590b28d5a2c33ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28221f6ead3c4c21e7f85a023e4f91ef') in 0.010374 seconds 
+  Import took 0.014564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.002.prefab
+  artifactKey: Guid(2a79acfcd49d08f4c9f18713ea5a06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.002.prefab using Guid(2a79acfcd49d08f4c9f18713ea5a06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7915a7a18870c5f76f5dc9fbeabb2282') in 0.010005 seconds 
+  Import took 0.013843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.001.prefab
+  artifactKey: Guid(ab673cf883d054a4c935f4e390817763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.001.prefab using Guid(ab673cf883d054a4c935f4e390817763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295686709365039b85faf4de305fc348') in 0.009177 seconds 
+  Import took 0.013362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_90.001.prefab
+  artifactKey: Guid(881ead7b6bc2a2b4b820e9530a317b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_90.001.prefab using Guid(881ead7b6bc2a2b4b820e9530a317b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27743e0d86241453589c2917b56849e8') in 0.008725 seconds 
+  Import took 0.013201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.002.prefab
+  artifactKey: Guid(cabb0621ee319a54384c444f64e90c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.002.prefab using Guid(cabb0621ee319a54384c444f64e90c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b294dbe4c8e9e470d818c350825d9f') in 0.010153 seconds 
+  Import took 0.014204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_90.prefab
+  artifactKey: Guid(3434b54cacd690c49a2957609c99764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_90.prefab using Guid(3434b54cacd690c49a2957609c99764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c248a3f3e6d52eb9dffc59fe94d668e') in 0.008908 seconds 
+  Import took 0.012984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.002.prefab
+  artifactKey: Guid(6c3c6c5287f95cf4db265469fdb53b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.002.prefab using Guid(6c3c6c5287f95cf4db265469fdb53b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55acddda3123c9c878c87202df18cf6') in 0.010816 seconds 
+  Import took 0.014807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Start.prefab
+  artifactKey: Guid(c7e1ff358740562418128cc6fba4a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Start.prefab using Guid(c7e1ff358740562418128cc6fba4a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b1385ae02915aabbc1d97e51e8b548') in 0.009891 seconds 
+  Import took 0.013954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.prefab
+  artifactKey: Guid(dcc040c68a3ba6c44bcb402021183f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.prefab using Guid(dcc040c68a3ba6c44bcb402021183f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c1abea5331a3128d877caa38fa2c36') in 0.011382 seconds 
+  Import took 0.015607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Rotation.prefab
+  artifactKey: Guid(b4fbf71adc6fefc46b53e225cb48a047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Rotation.prefab using Guid(b4fbf71adc6fefc46b53e225cb48a047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4622cbc54d9879be6eb4b5c25db3c53') in 0.013696 seconds 
+  Import took 0.018066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.prefab
+  artifactKey: Guid(0a2d301589decd2408118d562b31b9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.prefab using Guid(0a2d301589decd2408118d562b31b9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b88a381a68df434b5524243d7863d6e') in 0.009691 seconds 
+  Import took 0.013763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_45.prefab
+  artifactKey: Guid(6b78139d720c2b14fa263168ff567f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_45.prefab using Guid(6b78139d720c2b14fa263168ff567f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563155b66da5ad9a765fb8cc54fbdaad') in 0.009290 seconds 
+  Import took 0.013485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.ENDLESS.prefab
+  artifactKey: Guid(5d08865560561476793d18dc15672985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Straight.ENDLESS.prefab using Guid(5d08865560561476793d18dc15672985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04361fabc06568fc42110fbb8da89f1e') in 0.028716 seconds 
+  Import took 0.033823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.003.prefab
+  artifactKey: Guid(79ae076eb9ea03847a1c1fff329a15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Part.003.prefab using Guid(79ae076eb9ea03847a1c1fff329a15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad1066288f95ecf46c3756fa13c9b7c') in 0.009692 seconds 
+  Import took 0.013840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_90.002.prefab
+  artifactKey: Guid(c7855841b1c2fce4eb26133c93f55237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_90.002.prefab using Guid(c7855841b1c2fce4eb26133c93f55237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b423278fd30d72c46f2c916e41d505da') in 0.008876 seconds 
+  Import took 0.013113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Up.prefab
+  artifactKey: Guid(f30670821d7be8d41b40323f3eba25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_Up.prefab using Guid(f30670821d7be8d41b40323f3eba25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8968eb66b2ef4f3fc12b739afe49b480') in 0.008817 seconds 
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_45.002.prefab
+  artifactKey: Guid(9a69134c371b28544ab52d5a6fd5e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Path_45.002.prefab using Guid(9a69134c371b28544ab52d5a6fd5e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a8ad20a21db3a32f0f3a91a6d83831') in 0.010055 seconds 
+  Import took 0.014477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.prefab
+  artifactKey: Guid(fadcb3402d0eaa94fa75f6fde12f63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HYPEPOLY - Runner Pack Standart/Prefabs/Road/Bridge_Start.prefab using Guid(fadcb3402d0eaa94fa75f6fde12f63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956d964592a52cc2883138f44905d689') in 0.009234 seconds 
+  Import took 0.013597 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 13:34:54.342 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009ccb60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2672ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2356ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1124ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (865ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.4 MB.
+System memory in use after: 296.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4193.
+Total: 2.826541 ms (FindLiveObjects: 0.196125 ms CreateObjectMapping: 0.130625 ms MarkObjects: 2.475875 ms  DeleteObjects: 0.022834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 14:42:53.903 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009ece70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.728 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2729ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2413ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1152ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (886ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.7 MB.
+System memory in use after: 296.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4195.
+Total: 2.553167 ms (FindLiveObjects: 0.176750 ms CreateObjectMapping: 0.078209 ms MarkObjects: 2.281458 ms  DeleteObjects: 0.015917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 14:56:19.366 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009cde30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2711ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2405ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1156ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (892ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (71ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.3 MB.
+System memory in use after: 297.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4197.
+Total: 2.885916 ms (FindLiveObjects: 0.211250 ms CreateObjectMapping: 0.085709 ms MarkObjects: 2.568500 ms  DeleteObjects: 0.019167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5614.262456 seconds.
+  path: Assets/Game/scenes/MainMenu.unity
+  artifactKey: Guid(5ec3560d8607b8d47a1fcdf6f132e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/MainMenu.unity using Guid(5ec3560d8607b8d47a1fcdf6f132e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53162c1169c81cacab3b140bd73de4a7') in 0.022901 seconds 
+  Import took 0.027473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.754243 seconds.
+  path: Assets/Game/scenes/Level3.unity
+  artifactKey: Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level3.unity using Guid(c90293d23dd2a457f871924e90775afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2149b8054884e5404d59749065bdea') in 0.001635 seconds 
+  Import took 0.005964 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-08 15:12:43.885 Unity[1093:9863] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009c9650 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2674ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2361ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (889ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.5 MB.
+System memory in use after: 297.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4199.
+Total: 2.588459 ms (FindLiveObjects: 0.215625 ms CreateObjectMapping: 0.080250 ms MarkObjects: 2.274541 ms  DeleteObjects: 0.016958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 431.678416 seconds.
+  path: Assets/Game/scenes/Level3/NavMesh.asset
+  artifactKey: Guid(b1c013e36633d491bb500ae6873465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/scenes/Level3/NavMesh.asset using Guid(b1c013e36633d491bb500ae6873465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91762131b92e9505a2ae8003cdb13afa') in 0.073785 seconds 
+  Import took 0.080419 seconds .
+

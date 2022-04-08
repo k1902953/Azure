@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     public static bool finishTimer;
     public static int minutes;
     int newRating;
-    public static string[] prefsRatings = new string[2];
+    public static string[] prefsRatings = new string[3];
     
 
     public void incScore()
@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
         prefsRatings[0] = "rating1";
         prefsRatings[1] = "rating2";
+        prefsRatings[2] = "rating3";
     }
 
     void Start()
@@ -58,14 +59,13 @@ public class GameManager : MonoBehaviour
         gameover = false;
         gamewon = false;
         finishTimer = false;
-        if (level <= 2)
+        if (level <= 3)
         {
             levelTxt.text = "" + level;
         }
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (SceneManager.GetActiveScene().name == "Endless")
@@ -146,6 +146,12 @@ public class GameManager : MonoBehaviour
 
             switch (level)
             {
+                case 3:
+                    if (newRating > PlayerPrefs.GetInt(prefsRatings[2]))
+                    {
+                        PlayerPrefs.SetInt(prefsRatings[2], newRating);
+                    }
+                    break;
                 case 2:
                     if (newRating > PlayerPrefs.GetInt(prefsRatings[1]))
                     {

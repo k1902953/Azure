@@ -7,7 +7,7 @@ using TMPro;
 
 public class levelloader : MonoBehaviour
 {
-    public static Button[] LevelBtns = new Button[2];
+    public static Button[] LevelBtns = new Button[3];
 
     public TMPro.TMP_Text coinsCollectedTxt;
 
