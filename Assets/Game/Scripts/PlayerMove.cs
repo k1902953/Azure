@@ -24,6 +24,10 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private Transform p0;
     [SerializeField] private Transform p1;
     [SerializeField] private Transform p01;
+    //private LineRenderer linerender;
+    //private int numpoints = 20;
+    //int index = 0;
+    //private Vector3[] pointPositions = new Vector3[20];
     private float interpolateAmount;
 
     void Start()
@@ -35,6 +39,7 @@ public class PlayerMove : MonoBehaviour
         pcontroller = GetComponent<Rigidbody>();
         playerCollider = GetComponent<CapsuleCollider>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        
 
         //due to player prefabs created for chatacter selecting
         if (GameManager.level == 1)
@@ -45,6 +50,8 @@ public class PlayerMove : MonoBehaviour
             p0 = GameObject.Find("road/Path_90.002/p0").transform;
             p1 = GameObject.Find("road/Path_90.002/p1").transform;
             p01 = GameObject.Find("road/Path_90.002/p01").transform;
+            //linerender = GameObject.Find("road/Path_90.002").GetComponent<LineRenderer>();
+            //linerender.positionCount = numpoints;
         }
     }
     private void FixedUpdate()
@@ -60,9 +67,7 @@ public class PlayerMove : MonoBehaviour
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 transform.position += transform.forward * Time.deltaTime * moveSpeed;
-                //Vector3 move = new Vector3(0, Input.GetAxis("Vertical"), 0);
-                //pcontroller.Move(move * Time.deltaTime * moveSpeed);
-                interpolateAmount = (interpolateAmount + Time.deltaTime /3 ) % 1f;
+                interpolateAmount += Time.deltaTime / 2  % 1f;
                 anim.SetBool("movingf", true);
             }
             //move backwards
@@ -222,13 +227,35 @@ public class PlayerMove : MonoBehaviour
     //quadratic bezier curves
     public Vector3 QuadrationCurve(Transform a, Transform b, Transform c, float t)
     {
-        //t = (t + Time.deltaTime) % 1f;
         p0.position = Vector3.Lerp(a.position, b.position, interpolateAmount);
         p1.position = Vector3.Lerp(b.position, c.position, interpolateAmount);
-        //p01.position = Vector3.Lerp(p0.position, p1.position, interpolateAmount);
         return Vector3.Lerp(p0.position, p1.position, interpolateAmount);
+
+
+        //float tt = t * t;
+        //float u = 1f - t;
+        //float uu = u * u;
+
+        //Vector3 p = uu * a;
+        //p += 2f * u * t * b;
+        //p += tt * c;
+
+        //return p;
     }
-    
+
+    //Vector3[] curve()
+    //{
+    //    for (int i = 1; i < numpoints + 1; i++)
+    //    {
+    //        float t = i / (float)numpoints;
+    //        pointPositions[i-1] = QuadrationCurve(pointA, pointB, pointC, t);
+            
+    //    }
+    //    linerender.SetPositions(pointPositions);
+    //    return pointPositions;
+
+    //}
+
     public void VictoryAnimationEvent()
     {
         gameManager.GameWon();

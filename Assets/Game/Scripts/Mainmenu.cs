@@ -145,7 +145,7 @@ public class Mainmenu : MonoBehaviour
 
     public void Next()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 3)
+        if (SceneManager.GetActiveScene().buildIndex > 1)
         {
             
             //StartCoroutine(LoadAsynchronously("level2"));

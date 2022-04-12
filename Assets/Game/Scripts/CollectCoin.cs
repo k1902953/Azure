@@ -20,7 +20,10 @@ public class CollectCoin : MonoBehaviour
 
         if (collisionInfo.tag == "Player")
         {
-            coinMP3.Play();
+            if (PlayerPrefs.GetInt("sound") == 0)
+            {
+                coinMP3.Play();
+            }
             this.gameObject.SetActive(false);
             GameManager.inst.incScore();
             Destroy(gameObject);

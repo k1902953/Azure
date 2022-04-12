@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 
 public class AudioManager : MonoBehaviour
@@ -8,9 +9,14 @@ public class AudioManager : MonoBehaviour
     public AudioSource Audio;
     //public AudioClip levelAudioClip;
     public GameObject switchon;
+    public GameObject switchon2;
     public static AudioManager instance;
     public AudioClip[] sounds;
     private GameObject temp;
+    public GameObject musicOnBtn;
+    public GameObject musicOffBtn;
+    public GameObject soundOnBtn;
+    public GameObject soundOffBtn;
 
     void Awake()
     {
@@ -21,8 +27,46 @@ public class AudioManager : MonoBehaviour
             Destroy(Audio.gameObject);
         }
         DontDestroyOnLoad(Audio.gameObject);
-    }
 
+        if (PlayerPrefs.GetInt("music") == 0)
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                musicOnBtn.gameObject.SetActive(true);
+                musicOffBtn.gameObject.SetActive(false);
+            }
+            Audio.Play();
+        }
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                musicOffBtn.gameObject.SetActive(true);
+                musicOnBtn.gameObject.SetActive(false);
+            }
+            Audio.Pause();
+        }
+        
+           
+        if (PlayerPrefs.GetInt("sound") == 0)
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                soundOnBtn.gameObject.SetActive(true);
+                soundOffBtn.gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                soundOffBtn.gameObject.SetActive(true);
+                soundOnBtn.gameObject.SetActive(false);
+            }
+        }
+        
+    }
+   
     void Update()
     {
         
@@ -35,14 +79,18 @@ public class AudioManager : MonoBehaviour
         if (Audio.clip == sounds[1])
         {
             Audio.clip = sounds[0];
-            Audio.Play();
         }
         else
         {
             Audio.clip = sounds[1];
+        }
+
+        if (PlayerPrefs.GetInt("music") == 0)
+        {
             Audio.Play();
         }
-        
+
+
     }
 
     public void Music()
@@ -52,13 +100,24 @@ public class AudioManager : MonoBehaviour
         if (switchon.activeSelf)
         {
             Audio.Play();
-            Debug.Log("ture");
+            PlayerPrefs.SetInt("music", 0);
         }
         else
         {
             Audio.Pause();
-            Debug.Log("false");
-            
+            PlayerPrefs.SetInt("music", 1);
+        }
+    }
+
+    public void SoundFX()
+    {
+        if (switchon2.activeSelf)
+        {
+            PlayerPrefs.SetInt("sound", 0);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("sound", 1);
         }
     }
 }

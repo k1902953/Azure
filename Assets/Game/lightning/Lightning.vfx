@@ -71,10 +71,10 @@ MonoBehaviour:
   - title: glow
     position:
       serializedVersion: 2
-      x: 2331
+      x: 2350
       y: -241
-      width: 984
-      height: 1676
+      width: 965
+      height: 1675
     contents:
     - model: {fileID: 8926484042661614780}
       id: 0
@@ -7984,7 +7984,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2356, y: 1332}
+  m_UIPosition: {x: 2375, y: 1331}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
